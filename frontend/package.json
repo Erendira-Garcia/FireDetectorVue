@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "start:backend": "cd ../backend && uvicorn main:app --reload",
+    "start:backend": "cd ../backend && uvicorn main:app --reload --host 0.0.0.0 --port 8000",
     "start:frontend": "npm run serve",
     "start": "concurrently \"npm run start:backend\" \"npm run start:frontend\"",
     "serve": "vue-cli-service serve"
