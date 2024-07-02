@@ -1,0 +1,50 @@
+:root{
+    --principal2:#CB3E0F;
+}
+
+h1 { 
+    text-align: center;
+    font-size: 40px;
+    font-family:'Krub',sans-serif;
+}
+
+h4,p {
+    text-align: center;
+    font-size: 30px;
+    font-family:'Krub',sans-serif;
+}
+
+a {
+    font-size: 25px;
+}
+
+img {
+    width:90%;
+}
+
+.header{
+    border: 1px solid var(--principal2);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.navbar{
+    border: 1px solid var(--principal2);
+    padding: 20px;
+    font-size: 30px;
+    text-align:center;
+}
+
+input{
+    width: 75%;
+    padding: 10px;
+    font-size: 10px;
+}
+
+.footer{
+    border: 1px solid var(--principal2);
+    padding: 20px;
+    font-size: 30px;
+    text-align:right;
+}
